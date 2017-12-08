@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Test</title>
+</head>
+<body>
+<div class="content"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+
+        const example  = new fdsg.Example('Johnny');
+        const $content = document.querySelector('.content');
+
+        $content.textContent = example.sayHello();
+
+        console.log(example.sayHello());
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "quotemark"                 : [true, "single"],
+    "prefer-const"              : true,
+    "semicolon"                 : true,
+    "no-internal-module"        : true,
+    "no-non-null-assertion"     : true,
+    "no-duplicate-variable"     : true,
+    "no-shadowed-variable"      : true,
+    "no-eval"                   : true,
+    "no-misused-new"            : true,
+    "eofline"                   : true,
+    "max-file-line-count"       : [true, 300],
+    "cyclomatic-complexity"     : [true, 20],
+    "max-classes-per-file"      : [true, 1],
+    "max-line-length"           : [true, 120],
+    "no-consecutive-blank-lines": [true, 2],
+    "no-default-export"         : true,
+    "trailing-comma"            : [true, {"multiline": "always", "singleline": "never"}],
+    "array-type"                : [true, "array-simple"],
+    "arrow-return-shorthand"    : [true, "multiline"],
+    "class-name"                : true,
+    "jsdoc-format"              : true,
+    "new-parens"                : true,
+    "object-literal-key-quotes" : [true, "as-needed"],
+    "prefer-method-signature"   : true,
+    "interface-name"            : [true, "always-prefix"],
+    "triple-equals"             : [true, "allow-null-check", "allow-undefined-check"]
+  }
+}

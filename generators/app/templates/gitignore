@@ -1,0 +1,11 @@
+# Idea configuration
+.idea/
+
+node_modules/
+dist/
+
+.nyc_output/
+coverage/
+
+npm-debug.log
+yarn-error.log

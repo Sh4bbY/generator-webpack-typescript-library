@@ -1,0 +1,31 @@
+{
+  "name": "generator-webpack-typescript-library",
+  "version": "0.1.0",
+  "description": "Yeoman generator to create typescript based libraries",
+  "repository": "Sh4bbY/generator-webpack-typescript-library",
+  "author": {
+    "name": "Sascha Bialon",
+    "email": "development@shabbtech.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+  },
+  "main": "generators/app/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "webpack",
+    "typescript",
+    "library"
+  ],
+  "licence": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.1",
+    "git-user-name": "^2.0.0"
+  },
+  "devDependencies": {
+  }
+}
